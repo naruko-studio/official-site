@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "test": "vitest --ui",
-    "lint": "bunx eslint . --fix",
+    "lint": "eslint . --fix",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
