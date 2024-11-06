@@ -2,9 +2,12 @@
   <div class="app-layout">
     <AppHeader />
     <div
-      style="
-        background-image: linear-gradient(135deg, #eab308 35%, #f59e0b 100%);
-      "
+      :style="{
+        'background-image':
+          error.statusCode === 404
+            ? 'linear-gradient(135deg, #eab308 35%, #f59e0b 100%);'
+            : 'linear-gradient(135deg, #ff4d00 35%, #ff0000 100%);',
+      }"
       class="flex min-h-[90vh] items-center text-white"
     >
       <div class="error-container">
