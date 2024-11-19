@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-11-04",
   app: {
     // baseURL: process.env.NODE_ENV === "production" ? "/official-site/" : "/",
-    baseURL: "/",
+    baseURL: "./",
     buildAssetsDir: "/static/",
     cdnURL: "https://naruko.studio/",
   },
