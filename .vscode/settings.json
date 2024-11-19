@@ -1,7 +1,10 @@
-{"liveSassCompile.settings.formats": [
-  {
-    "format": "compressed",
-    "extensionName": ".min.css",
-    "savePath": "/assets/css"
-  }
-]}
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/assets/css"
+    }
+  ],
+  "scss.lint.unknownAtRules": "ignore"
+}
